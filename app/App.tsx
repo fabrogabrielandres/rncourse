@@ -18,6 +18,6 @@ export default function App() {
     //     Welc to Nativewvvvvvvvvvvvvvvvvvvvvvvvnd!
     //   </Text>
     // </View>
-    <Redirect href="/home" />
+    <Redirect href="/(stack)/home" />
   );
 }

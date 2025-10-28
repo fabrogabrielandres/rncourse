@@ -11,13 +11,13 @@ function Home() {
         <CustomButton
           className="mb-2"
           color="primary"
-          onPress={() => router.push("/products")}
+          onPress={() => router.push("/(stack)/products")}
         >
           Productos
         </CustomButton>
 
         <CustomButton
-          onPress={() => router.push("/profile")}
+          onPress={() => router.push("/(stack)/profile")}
           className="mb-2"
           color="secondary"
         >
@@ -25,14 +25,14 @@ function Home() {
         </CustomButton>
 
         <CustomButton
-          onPress={() => router.push("/setting")}
+          onPress={() => router.push("/(stack)/setting")}
           className="mb-2"
           color="tertiary"
         >
           Ajustes
         </CustomButton>
 
-        <Link href="/products" asChild>
+        <Link href="/(stack)/products" asChild>
           <CustomButton variant="text-only" className="mb-10" color="primary">
             Productos
           </CustomButton>

@@ -19,7 +19,7 @@ const Layout = () => {
 
   if (!fontsLoaded && !error) return null;
 
-  return <Slot></Slot>;
+  return <Slot />;
 };
 
 export default Layout;
